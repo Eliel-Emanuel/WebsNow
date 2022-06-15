@@ -292,18 +292,40 @@ footer{
         justify-self: start;
     }
 
-    .footer__inputs{
+    .form__inputs{
         flex-wrap: wrap;
     }
 
-    .footer__input{
+    .form__input{
+        flex-basis: 100%;
+        margin: 0;
+        margin-bottom: 16px;
+        width: 100%;
+    }
+
+    .form__select-country{
+        flex-basis: 100%;
+        margin: 0;
+        margin-bottom: 16px;
+        width: 100%;
+    }
+
+    .form__select-type{
+        flex-basis: 100%;
+        margin: 0;
+        margin-bottom: 16px;
+        width: 100%;
+    }
+
+    .form__textarea{
         flex-basis: 100%;
         margin: 0;
         margin-bottom: 16px;
     }
 
-    .footer__submit{
+    .form__submit{
         width: 100%;
-
+        margin: auto;
     }
+
 }
