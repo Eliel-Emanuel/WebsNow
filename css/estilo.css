@@ -128,6 +128,7 @@
     display: grid;
     width: 90%;
     margin: 0 auto;
+    justify-content: space-between;
     align-items: start;
     gap: 1em;
     overflow: hidden;
@@ -150,7 +151,6 @@
     justify-items: center;
     width: 260px;
     overflow: hidden;
-    margin: auto;
 }
 
 .about__icon{
